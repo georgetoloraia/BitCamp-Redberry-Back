@@ -76,8 +76,8 @@ You can perform the following operations with the API:
 2. Create a new request and select the appropriate HTTP method (GET, POST, etc.).
 3. Enter the request URL for the endpoint you want to test.
 4. For POST requests:
-- In the Headers section, add Content-Type: application/json.
-- In the Body section, select raw and enter the required data in JSON format.
+- - In the Headers section, add Content-Type: application/json.
+- - In the Body section, select raw and enter the required data in JSON format.
 5. Send the request and observe the response.
 
 Example for user registration:
