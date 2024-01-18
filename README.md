@@ -30,13 +30,13 @@ cd your-repository
 ```
 
 
-2. Setting Up a Virtual Environment (Optional but Recommended)
-To create a virtual environment, run:
+### 2. Setting Up a Virtual Environment (Optional but Recommended)
+#### To create a virtual environment, run:
 
 ```
 python -m venv venv
 ```
-Activate the virtual environment:
+#### Activate the virtual environment:
 - On Windows:
 ```
 .\venv\Scripts\activate
@@ -45,14 +45,14 @@ Activate the virtual environment:
 ```
 source venv/bin/activate
 ```
-3. Installing Dependencies
-Install the project dependencies:
+### 3. Installing Dependencies
+#### Install the project dependencies:
 ```
 pip install -r requirements.txt
 ```
 
-4. Running the Server
-Start the Django development server:
+### 4. Running the Server
+#### Start the Django development server:
 ```
 python manage.py runserver
 ```
