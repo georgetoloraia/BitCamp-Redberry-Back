@@ -69,8 +69,8 @@ You can perform the following operations with the API:
 - POST `/api/register/`: Register a new user.
 - POST `/api/login/`: Log in an existing user.
 
-##Testing with Postman
-###You can test the API using Postman by following these steps:
+## Testing with Postman
+### You can test the API using Postman by following these steps:
 
 1. Install and open Postman.
 2. Create a new request and select the appropriate HTTP method (GET, POST, etc.).
