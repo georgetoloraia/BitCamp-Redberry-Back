@@ -26,7 +26,7 @@ To clone the repository and navigate into the project directory, run:
 
 ```bash
 git clone https://github.com/georgetoloraia/BitCamp-Redberry-Back.git
-cd your-repository
+cd BitCamp-Redberry-Back
 ```
 
 
