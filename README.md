@@ -8,7 +8,7 @@ This project is a blog API developed with Django and Django REST Framework. It a
 
 - List, create, and retrieve blog posts.
 - List categories.
-- User registration and login.
+- User login.
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ Before you begin, ensure you have met the following requirements:
 To clone the repository and navigate into the project directory, run:
 
 ```bash
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/georgetoloraia/BitCamp-Redberry-Back.git
 cd your-repository
 ```
 
@@ -66,7 +66,6 @@ You can perform the following operations with the API:
 - POST `/api/blogs/create/`: Create a new blog post.
 - GET `/api/blogs/<id>/`: Retrieve a specific blog post by its ID.
 - GET `/api/categories/`: Retrieve a list of all categories.
-- POST `/api/register/`: Register a new user.
 - POST `/api/login/`: Log in an existing user.
 
 ## Testing with Postman
@@ -80,16 +79,15 @@ You can perform the following operations with the API:
 - - In the Body section, select raw and enter the required data in JSON format.
 5. Send the request and observe the response.
 
-Example for user registration:
+Example for user Login:
 
 - Method: POST
-- URL: `http://127.0.0.1:8000/api/register/`
+- URL: `http://127.0.0.1:8000/api/login/`
 - Headers: `Content-Type: application/json`
 - Body:
 ```
 {
     "email": "user@redberry.ge",
-    "username": "username"
 }
 ```
 1. Click `Send`
